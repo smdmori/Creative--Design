@@ -1,5 +1,6 @@
 // Common Styles
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 // Colors
 $color-blue-1: rgb(50, 231, 255);
@@ -33,6 +34,24 @@ body {
     background-color: #fff;
     width: 100%;
     height: 100vh;
+
+    &-heading {
+        position: absolute;
+        top: 20vw;
+        left: 50%;
+        width: 85rem;
+
+        font-size: 8rem;
+        font-family: 'Monoton', cursive;
+        text-align: center;
+        text-shadow: 0.3rem 0.3rem 0.3rem #888;
+        background-color: rgba($color: #fff, $alpha: 0.5);
+
+        padding: 0.8rem 1.6rem;
+        border-radius: 50px;
+
+        transform: translateX(-50%);
+    }
 }
 
 .floating-bg {
@@ -90,6 +109,24 @@ body {
     color: #555;
     width: 1.5rem;
     word-wrap: break-word;
+    transition: all 0.5s;
+    text-align: center;
+
+    &:hover {
+        width: 15rem;
+        transition: all 2s;
+        background-color: rgba($color: #fff, $alpha: .5);
+    }
+}
+
+.logo {
+    font-size: 20rem;
+    position: absolute;
+    top: 70%;
+    color: rgba($color-blue-1, 0.7);
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0.1rem 0.1rem 0.1rem #ddd, -00.1rem -00.1rem 0.2rem #ddd;
 }
 
 // End of Section 1
