@@ -186,6 +186,10 @@ body {
   padding: 2rem;
   -webkit-box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
           box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
 }
 
 .customer:first-child {
@@ -203,5 +207,36 @@ body {
   height: 10rem;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 2rem 0;
+  border-radius: 50%;
+}
+
+.fa-quote-left {
+  font-size: 4rem;
+  color: #f08e0f;
+}
+
+.customer-text {
+  font-size: 1.8rem;
+  margin: 2.5rem 0;
+  text-align: justify;
+}
+
+.customer-text::first-letter {
+  margin-left: 1rem;
+}
+
+.customer-rating i {
+  font-size: 2rem;
+}
+
+.customer-name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.customer:hover {
+  -webkit-box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
+          box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
 }
 /*# sourceMappingURL=style.css.map */

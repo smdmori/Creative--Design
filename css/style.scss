@@ -4,6 +4,7 @@
 
 // Colors
 $color-blue-1: rgb(50, 231, 255);
+$color-orange-1: #f08e0f;
 
 * {
     margin: 0;
@@ -170,6 +171,8 @@ body {
     border-radius: 0.5rem;
     padding: 2rem;
     box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
+
+    transition: box-shadow 0.5s;
 }
 
 .customer:first-child {
@@ -184,8 +187,38 @@ body {
     width: 10rem;
     height: 10rem;
     object-fit: cover;
+
+    margin: 2rem 0;
+    border-radius: 50%;
 }
 
+.fa-quote-left {
+    font-size: 4rem;
+    color: $color-orange-1;
+}
 
+.customer-text {
+    font-size: 1.8rem;
+    margin: 2.5rem 0;
+    text-align: justify;
+}
+
+.customer-text::first-letter {
+    margin-left: 1rem;
+}
+
+.customer-rating i {
+    font-size: 2rem;
+}
+
+.customer-name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.customer:hover {
+    box-shadow: 2rem 2rem 3rem #ddd,
+        -2rem -2rem 3rem #eee;
+}
 
 // End of Section 2
