@@ -130,3 +130,62 @@ body {
 }
 
 // End of Section 1
+
+// Section 2
+
+.section-2 {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-heading {
+    font-size: 10rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+    text-align: center;
+    opacity: 0.1;
+    text-shadow: 2rem 2rem 4rem #aaa;
+}
+
+.customer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+}
+
+
+.customer {
+    width: 35rem;
+    height: 50rem;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
+}
+
+.customer:first-child {
+    align-self: flex-end;
+}
+
+.customer:last-child {
+    align-self: flex-start;
+}
+
+.customer-image {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+
+
+// End of Section 2
