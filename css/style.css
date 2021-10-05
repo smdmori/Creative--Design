@@ -236,8 +236,8 @@ body {
 }
 
 .customer:hover {
-  -webkit-box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
-          box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
+  -webkit-box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
+          box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
 }
 
 .section-3 {
@@ -273,8 +273,8 @@ body {
   width: 35rem;
   background-color: #fffeee;
   padding: 1rem 1rem 2rem 1rem;
-  -webkit-box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
-          box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
+  -webkit-box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
+          box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
 }
 
 .story {
